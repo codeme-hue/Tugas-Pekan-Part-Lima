@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/note_card"
+  android:orientation="vertical"
+  android:layout_width="120dp"
+  android:layout_height="130dp"
+  android:minHeight="120dp"
+  android:maxHeight="150dp"
+  android:padding="5dp"
+  android:layout_margin="10dp"
+  android:clickable="true"
+  android:focusable="true"
+  android:background="@color/colorAccent"
+  android:foreground="?android:attr/selectableItemBackground"
+  app:cardBackgroundColor="#82e9ff"
+  app:cardMaxElevation="2dp">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/note_title"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="80dp"
+      android:ellipsize="end"
+      android:maxLines="5"
+      android:text="Note title"
+      android:textColor="@color/colorAccent"
+      android:textSize="20sp"
+      android:gravity="center"/>
+
+    <TextView
+      android:id="@+id/note_time"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:maxLines="4"
+      android:text="Update time"
+      android:gravity="center"
+      android:textSize="13sp"
+      android:textColor="@android:color/holo_purple"
+      android:textStyle="bold"/>
+  </LinearLayout>
+
+</androidx.cardview.widget.CardView>
