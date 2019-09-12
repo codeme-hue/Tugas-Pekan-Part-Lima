@@ -32,7 +32,7 @@
       android:text="Note title"
       android:textColor="@color/cardview_dark_background"
       android:textSize="15sp"
-      android:gravity="center"/>
+      android:gravity="center" />
 
     <TextView
       android:id="@+id/note_time"
@@ -42,8 +42,8 @@
       android:text="Update time"
       android:gravity="center"
       android:textSize="13sp"
-      android:textColor="@android:color/black"
-      android:textStyle="bold"/>
+      android:textColor="#fd5f00"
+      android:textStyle="italic"/>
   </LinearLayout>
 
 </androidx.cardview.widget.CardView>
