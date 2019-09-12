@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
+<ScrollView
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
@@ -46,9 +46,8 @@
         android:layout_weight="1"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-  </LinearLayout>
 
-  <LinearLayout
+    <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content">
 
@@ -57,10 +56,12 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="Create note"
-      android:textColor="@android:color/holo_blue_dark"
+      android:textColor="#fd5f00"
       android:background="@android:color/transparent"
-      android:layout_marginTop="465dp"/>
+      android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
 
   </LinearLayout>
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</ScrollView>

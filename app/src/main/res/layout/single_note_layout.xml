@@ -31,7 +31,7 @@
       android:maxLines="5"
       android:text="Note title"
       android:textColor="@color/cardview_dark_background"
-      android:textSize="20sp"
+      android:textSize="15sp"
       android:gravity="center"/>
 
     <TextView
