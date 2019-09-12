@@ -30,7 +30,7 @@
       android:ellipsize="end"
       android:maxLines="5"
       android:text="Note title"
-      android:textColor="@color/colorAccent"
+      android:textColor="@color/cardview_dark_background"
       android:textSize="20sp"
       android:gravity="center"/>
 
@@ -42,7 +42,7 @@
       android:text="Update time"
       android:gravity="center"
       android:textSize="13sp"
-      android:textColor="@android:color/holo_purple"
+      android:textColor="@android:color/black"
       android:textStyle="bold"/>
   </LinearLayout>
 

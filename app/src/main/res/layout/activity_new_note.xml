@@ -37,7 +37,7 @@
       <com.google.android.material.textfield.TextInputEditText
         android:gravity="top"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:ems="10"
         android:padding="10dp"
@@ -46,15 +46,21 @@
         android:layout_weight="1"/>
     </com.google.android.material.textfield.TextInputLayout>
 
+  </LinearLayout>
 
-    <Button
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <Button
       android:id="@+id/new_note_btn"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="Create note"
-      android:textColor="@android:color/white"
-      android:background="@drawable/create_btn"
-      android:layout_marginTop="345dp"/>
+      android:textColor="@android:color/holo_blue_dark"
+      android:background="@android:color/transparent"
+      android:layout_marginTop="465dp"/>
+
   </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
